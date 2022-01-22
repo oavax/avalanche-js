@@ -1,0 +1,29 @@
+{
+  "name": "@avalanche-js/core",
+  "version": "0.2.0",
+  "description": "avalanche core package",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "neeboo@firestack.one",
+  "license": "MIT",
+  "dependencies": {
+    "@avalanche-js/account": "latest",
+    "@avalanche-js/contract": "latest",
+    "@avalanche-js/crypto": "latest",
+    "@avalanche-js/network": "latest",
+    "@avalanche-js/staking": "latest",
+    "@avalanche-js/transaction": "latest",
+    "@avalanche-js/utils": "latest"
+  }
+}
